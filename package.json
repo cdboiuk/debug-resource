@@ -1,0 +1,24 @@
+{
+  "name": "debug",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "@citizenfx/client": "^2.0.4445-1",
+    "@citizenfx/server": "^2.0.4445-1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
